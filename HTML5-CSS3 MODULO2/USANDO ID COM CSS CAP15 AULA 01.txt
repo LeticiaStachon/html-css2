@@ -1,0 +1,76 @@
+Digamos que você queira uma formatação diferente para o seu H1, na CSS quando você formata um H1, todos os h1 ficaram iguais, então para diferenciar um dos outros segue o seguinte. 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletore Personalizados</title>
+    <link rel="stylesheet" href="style.css"> --------------------------------------> ESSE LINK VOCÊ CRIA PARA CRIAR A PÁGINA DA CSS
+</head>
+<body>
+    <h1>Criando sites com HTML e CSS</h1>
+    <h1>Aprendendo HTML</h1>
+    <h2>HTML básico</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis in beatae quae quas autem? Similique deleniti vitae velit tempore. Nisi eveniet corporis ex iure minus, quidem similique sequi harum.</p>
+    <h2>HTML intermediário</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis in beatae quae quas autem? Similique deleniti vitae velit tempore. Nisi eveniet corporis ex iure minus, quidem similique sequi harum.</p>
+    <h2>HTML avançado</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus veritatis in beatae quae quas autem? Similique deleniti vitae velit tempore. Nisi eveniet corporis ex iure minus, quidem similique sequi harum.</p>
+
+
+NA PAGINA DO CSS VOCÊ COLOCA O SEGUINTE ------>  @charset "UTF-8"; <------ primeiro depois os cód de exemplo abaixo 
+
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+color: rgb(4, 109, 0);
+}
+
+h2 {
+color: rgb(51, 77, 49);
+}
+
+PARA DIFERENCIAR O H1 você coloca um identificador que nesse exemplo foi chamado de principal 
+
+<body>
+    <h1 id="principal">Criando sites com HTML e CSS</h1>
+    <h1>Aprendendo HTML</h1>
+    <h2>HTML básico</h2>
+
+PAG 1
+
+-------------------------------------------------------------------------------------------------
+
+NA PAG2 DA CSS VOCÊ VAI POR 
+
+@charset "UTF-8";
+
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+color: rgb(4, 109, 0);
+}
+
+h1#principal {                            ---------------------> ESSA CONFIGURAÇÃO --- OBS não tem necessidade de por o h1 antes de #principal mas gosto de por para identificar
+    text-align: center;    
+}
+
+h2 {
+color: rgb(51, 77, 49);
+}
+
+
+
+
+======================================================================================
+
+
+Tudo que em HTML é id em CSS vira #
+Tudo que em HTML é class = em CSS é .

@@ -1,0 +1,109 @@
+Aprendemos mais duas Pseudoclasses - 
+
+ a:visited {
+            color: darkred;
+        }
+
+
+-------
+
+ a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+-------
+
+  a:active {
+            color: yellow;
+        } 
+
+
+Pseudoclasse --> São palavras que definem estados de elementos dentro da HTML.
+
+
+PSUDELEMENTO 
+
+O Pseudelemento ele pode agir nas classes, nos elementos nos ID, ele mexem no conteúdo periférico do elemento. 
+
+EX:
+Se eu quiser que todo link no final tenha uma indicação que é um link:
+
+                   a::after {
+                              content: "[link]";
+                              text-decoration: none;
+                              font-weight: normal;
+                              color: darkgray;
+                             }
+
+
+--------------------------------
+
+Pra por setas --> 
+
+a::before {
+    content: "⤇";
+}        
+        
+        
+        a::after {
+            content: "⤆";
+        }
+
+---------------------------
+
+
+Ah eu quero por a seta no que eu julgar especial, ex o YOUTUBE ---->
+
+
+.especial::before {
+    content: "⤇";
+}        
+        
+        
+        .especial::after {
+            content: "⤆";
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+    <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+    <li><a href="https://youtube.com/cursoemvideo/" class="especial">Canal do YouTube</a></li>
+    <li><a href="https://www.cursoemvideo.com">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
+
+
+---------------------------------------------------------
+
+Resumindo tudo
+
+SELETORES PERSONALIZADOS 
+
+# = id
+ . = class
+ : = pseudo-class
+ :: = pseudp-element
+ > = clildren 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

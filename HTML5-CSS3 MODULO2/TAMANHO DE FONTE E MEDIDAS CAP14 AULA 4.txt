@@ -1,0 +1,34 @@
+Seguir a recomendação do W3C
+
+Existem várias formar de por o tamanho da fonte ---> FONT SIZE <---
+
+
+MEDIAS -->
+
+ Medidas Absolutas - São os cm (CENTIMETRO), mm (MELIMETRO), in (POLECAGA), px (PIXEL) tela retina, pt (PONTO, ex tamanho das letras no WORD), pc (PAICA).
+ pt, pc são medidas da tipografia não é recomendado utilizar em material impresso ou ezibido em TELAS.
+
+
+Medidas Relativas - São em (medida relativa ao tamanho atual da fonte, seria ALTURA M. Ele é relativo a altura M de uma letra de uma determinada fonte), ex (é relativo a altura x de uma fonte), rem (é tipo a EM mas é relativo ao rut, a fonte que está no body), vw (Largura da viw port, viw port é o tamanho da sua tela, a porcentagem da viw port, da largura da viu port), vh (Altura da Viw Port), %.
+
+De todas as opções vamos usar mais a EM.
+
+A W3X recomenda o uso da PX e da EM. NÃO USE AS OUTRAS DO EXEMPLO ACIMA. 
+
+GERALMENTE 16px é o tamanho normal da fonte. 
+
+16px geralmente é igual a 1em.
+
+O em é o dobro do tamanho dos 16px, então 2em vai dobrar de tamanho pois seria uma média de 32px.
+
+Da para usar metade que seria 0.5em
+
+É MELHOR USAR O em, porque você trabalha com porcentagem do taamanho da fonte padrão, isso vai ser bom quando você estiver mostrando o seu site no relõgio, na tv, no celular, no tablet. 
+
+
+
+
+
+
+
+

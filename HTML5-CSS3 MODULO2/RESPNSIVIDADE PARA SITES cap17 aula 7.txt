@@ -1,0 +1,83 @@
+Responsividade CSS:  
+
+Adaptar o tamanho e o conteúdo do seu site ao tamanho de telas diferentes. 
+
+Um dos recursos mais simples, é poder limitar o tamanho mínimo  o tamanho máximo de uma interface.
+
+-------------------------------------------------------------------------------------------------
+
+O ideal de largura é 1.00 ou 1.200 pixels -px- de largura no máximo, a cima de 1.200 px a genta já vai criar um bloco que seja adaptável mas que ele não vai ser muito largo.
+
+Vamos aprender o recurso que a largura máxima e a largura mínima. 
+
+----------------------------------------------------------------------------------------------
+
+Crie uma aba nova no CODE, Responsivo.html
+
+O nosso exemplo é apenas um teste. 
+
+Instale mais uma instensão do chrome ---> CHROME WEB STORE ----> WINDOW RESIZER
+
+Com ele você consegue diminuir a tela e aumentar que aparece quantos px tem a tela de largura. 
+
+Com ele você também consegue ver como o seu site vai ficar em um celulares em vários outros dispositivos. 
+
+-------------------------------------------------------------------------------------------
+<style>
+        body {
+            background-color: gray; --------------------> Aqui foi só para mudar a cor de fundo
+        }
+
+        main {
+            background-color: white;-------------------------------> Aqui foi para mudar a cor da caixa
+            padding: 20px; -----------------------------------> os px 
+            border-radius: 10px; -----------------------------> os px
+
+            width: 800px;-------------------------> LARGURA DO SITE
+            min-width: 280px; ------------------------> LARGURA MINIMA
+            max-width: 800px; -----------------------> LARGURA MAXIMA
+            margin: auto; -----------------------------> Margin automatica
+        }
+
+        img {
+            width: 100%; ----------------------------------------> USAR 100% DA IMAGEM
+        }
+    </style>
+
+
+
+--------------------------------------------------------------------------------------------------
+
+ENVELOPAR E USAR O PICTURE: 
+
+Se a tela for muito fininha ele carrega imagens diferentes. 
+No caso do nosso exemplo foi feito dois tipos de imagens justamente para se adaptar a todo tipo de tela. 
+
+
+
+
+<picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

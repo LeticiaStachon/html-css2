@@ -1,0 +1,82 @@
+Temos uma grande limitação com o id, dentro de um mesmo documento HTML só se pode ter um elemento com id. Por o mesmo id em outros ESTÁ ERRADO, ele até funciona, mas funcionar não significa que está certo. 
+
+O que fazer --> USA A CLASS, eu posso ter vários elementos com a mesma classe. 
+
+ex-->  <h2 class="basico">HTML básico</h2>
+
+A diferença ente ID e CLASS é que ID é único e CLASS pode ser múltiplo.
+
+Uma dica ---> Não de nome as suas classes e aos seu id de acordo com a forma e sim a função.
+
+DICA --> CLICA NO LUGAR QUE VOCE QUER E SEGURA O ALT- VOCÊ CONSEGUE APAGAR MAIS DE UM E ESCREVER EM MAIS DE UM LUGAR. 
+
+NA CSS ------> 
+
+.basico {
+color: #3c805e;
+font-weight: bold;
+}
+
+.intermediario {
+color: #80793c;
+}
+.avancado {
+color: #803c3c;
+}
+
+-----------------------------------------------------------------------------------------
+
+Se você envelopar ctrl+shift+P com uma tag qualquer por ex SPAN e por esse exemplo:
+
+
+<h2 class="basico">HTML básico</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit ------------- > <span class="basico">Possimus veritatis</span> <--------------------  in beatae 
+
+vooce consegue deixar a frase da mesma cor e formato do class básico. 
+
+
+------------------------------------------------------------------------------
+
+No CSS eu posso criar um atalho 
+
+.destaque {
+    background-color: #c5c56070;
+}
+
+por exemplo e usar esse atalho para qualquer item do meu conteúdo. Como no exemplo no CODE. 
+
+
+----------------------------------------------------------
+
+Se você quiser por mais de um class consegue também, exemplo 
+
+
+ <h2 class="avancado destaque">CSS avançado</h2>
+    <p>Lorem, ipsum dolor 
+
+
+
+Eu consigo aplicar mais de uma classe em um elemento.
+
+Da também de fazer um id e uma classe, ex -->
+
+
+<h1 id="principal" class="destaque">Criando sites com HTML e CSSS
+
+
+Se tiver algo igual já feito ele não sobrepõem o id. 
+
+
+O ID SOBREPOEM AS CONFIGURAÇÕES DO COLOR SÓ DO H1 QUANDO POSTO.
+
+
+É como se fosse uma regra de hierarquia tem coisas que são ligadas antes e coisas que são ligadas depois, tipo color --> o que vai ficar valendo, é o ultimo a ser ligado. 
+ o CLASS é ligado antes --> o ID é ligado depois, então o que sobrepõe são as configurações do ID, mas ele sempre vai herdar o que veio da camada a cima.
+ Ele sempre vai trazer tudo o que veio do H1 para o H1 principal e vai trazer tudo do H1 pra classe, só que a classe vem antes do ID.
+
+
+
+
+  
+
+

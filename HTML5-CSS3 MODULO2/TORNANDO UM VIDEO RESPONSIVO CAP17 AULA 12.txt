@@ -1,0 +1,89 @@
+Tirar o negrito do H1,H2 e Cabeçalho:
+
+font-weight: normal; -----> Se usa esse código no header para o cabeçalho. 
+
+O código para o h1 e h2 são os mesmos só muda o local, ao invés e ser no HEADER vai ser no MAIN.
+
+
+VIDEO:
+
+Quando você pega o código do vídeo do YouTube, você já pega um código pronto, que já vem com largura width de 560 e altura height de 315,e isso complica muito a nossa vida. 
+
+Aprendendo um macete, uma gambiarra para poder colocar o vídeo do YouTube já centralizado.
+
+Primeiro passo: Selecionar o ifreme o link e envelopar ele dentro de uma DIV.
+
+Por uma class vídeo. 
+
+
+            <div class="vídeo"><iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=27NseogpeO4jD2jF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Depois você vai no CSS:
+
+Por cor no fundo --> div.vídeo {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+
+}
+
+Tamanhos e etc. 
+
+
+GAMBIARRA:
+
+div.vídeo {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+
+    position: relative; --------------> Dentro do div.vídeo 
+
+}
+
+div.vídeo > iframe {
+    position: absolute; ----------------> Dentro do div.vídeo
+}
+
+O vídeo vai ficar meio que flutuando então você vai por um padding dentro do div. :
+
+div.vídeo {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%; --------------------------> AQUI
+    position: relative;
+
+}
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Vamos mexer no TOP e no LEFT: 
+
+TOP: Distancia do vídeo até a margem 
+LEFT: Distancia lateral do vídeo até a margem
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+ 
+

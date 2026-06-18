@@ -1,0 +1,81 @@
+<div></div> é um espaço qualquer. Ela vai ficar uma em cada linha, ela é uma área que vai ficar até o fim da tela, a tela inteira no caso. 
+
+height: 200px; ALTURA
+    width: 200px; LARGURA
+
+
+CÓDIGOS DA AULA 
+
+  <title>Pseudo-classes</title>
+    <style>
+div {
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div#d1 {
+    background-color: blue;
+}
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>
+
+
+----------------------------------------------------------------------------------------
+
+PSEUDO-CLASSES --> : É UMA PSEUDO-CLASSE. 
+
+Elas tem que estar relacionadas a um elemento ou a uma classe. Ela está relacionada ao estado de um determinado elemento. Se ele ta ativo, se ele esta marcado, se ele esta ativo, se ele esta habilitado, então você consegue configurar o estado.
+
+EX:
+
+
+div:hover {
+    
+}
+
+Hover significa que quando eu passar com o mouse por cima.
+
+
+exemplos de hover
+
+
+     <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+        div:hover {
+color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>	

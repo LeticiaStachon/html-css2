@@ -1,0 +1,54 @@
+Fonte ARIAL é uma fonte sem serifa, nem todo computador tem a fonte Arial. 
+Fonte VERDANA é Serifada.
+Fonte Helvetica é Serifada.
+
+
+Se for usar
+
+ </head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+
+O primeiro problema seria porque está usando estilo inline. 
+
+Tire e faça o LOCAL
+
+<title>Fontes em CSS</title>
+    <style>
+     body  {
+        font-family: 'Courier New', Courier, monospace;
+     }
+
+FONTE COURIER NEW - Fica uma fonte serifada e moe espaçada.
+FONTE GENERICA = 
+
+<style>
+     body  {
+        font-family: sans-serif;
+     }
+    </style>
+
+OUTRA COISA QUE DA DE FAZER -->
+
+<style>
+     body  {
+        font-family: seif;
+     }
+    </style>
+ 
+
+OUTRA ---> 
+
+<style>
+     body  {
+        font-family: monospace;
+     }
+    </style>
+
+SEMPRE TERMINE A SUA COMBINAÇÃO DE FONTE COM UM NOME GENERICO, PARA QUE SEU SITE ABRA SEMPRE COM AS FONTES COMPATIVEIS COM AQUELE COMPUTADOR.
+ NO CASO AS FONTES GENERICAS ESTÃO NOS EXEMPLOS ACIMA. 
+
+
+
+
+
+

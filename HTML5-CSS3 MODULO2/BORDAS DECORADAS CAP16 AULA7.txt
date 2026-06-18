@@ -1,0 +1,20 @@
+Vamos usaro GIMP
+
+Vai em arquivo novo --> Vai por a altura e a largura 
+
+Vai em opções avançadas --> bota a resolução x,y
+Preencher com ---> TRANSPARENCIA
+Zoom --> 800%
+Puxa na reguinha e faz tipo um jogo da velha.
+Vai no quadradinho ---> seleção elipitico ---> MODO adicionar a seleção atual shift ---> Desligue o antisserrilhamento ---> 
+Faz a bola no primeiro quadradinho --> Vai no baldinho e pinta o circulo --> Duplica e põem um circulo em cada quadradinho -->
+
+Da para usar imagem em geral. 
+
+ h1 {
+          border: 12px solid black;
+          padding: 10px;
+          border-image-source: url(borda.jpg.jpg);
+          border-image-slice: 27;
+          border-image-repeat: repeat;
+        }

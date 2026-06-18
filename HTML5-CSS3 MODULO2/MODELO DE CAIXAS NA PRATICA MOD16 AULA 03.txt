@@ -1,0 +1,129 @@
+MEDIDAS
+
+Margem: Ela fica da borda pra fora 
+O Pedding é da borda pra dentro 
+
+Para mexer na margem:
+
+ margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+
+Para Centralizar uma caixa, deixar no meio:
+
+ margin: auto; ---> Fica exatamente no meio.
+
+
+-------------------------
+
+Criar um outline fica entre a borda e a margem>
+
+outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+
+------------------------------------
+
+COMO SIMPLIFICAR TUDO: 
+
+SHOTHANDS - são propriedades só que de múltiplos valores
+
+
+  border-width: 10px;
+  border-style: solid;
+  border-color: darkgray;
+
+Simplificada: 
+ 
+border: 10px solid darkslategray;
+
+-------------------------
+
+TOPO - padding-top: 10px;
+DIREITA - padding-right: 10px;
+EMBAIXO - padding-bottom: 10px;
+ESQUERDA - padding-left: 10-x;
+
+Simplificada:
+
+ padding: 10px 10px 10px 10px;
+
+MAS SE TODAS FOREM DA MESMA MEDIDA NO CASO ACIMA 10px, VOCÊ PODE POR SÓ UMA VEZ COMO NO EXEMPLO ABAIXO:
+
+padding: 10px
+
+Quando você bora dois valores medidas, o de cima e o de baixo ficam iguais e o da esquerda e da direita também ficam iguais.
+
+-------------------------------
+
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 10px;
+
+Simplificada: 
+
+margin: 20px 20px 40px 20px;
+
+Se quiser centralizar a margem da esquerda e da direita:
+
+margin: 20px auto 40px auto;
+
+-------------------
+
+
+
+outline-width: 5px;
+outline-style: dashed;
+outline-color: salmon;
+
+Simplificada: 
+
+outline: 5px dashed salmon;
+
+-------------------------------
+
+
+Se quiser transformar um box-line em inline:
+
+ <style>
+        h1 { /* box-level */
+            display: inline; <--------------------------------------
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid darkslategray;
+
+            padding: 10px;
+
+            margin: 20px auto 40px auto;
+
+            outline: 5px dashed salmon;
+
+        }
+
+Inline não pode fazer altura e largura. 
+
+Da para fazer o contrário também:
+
+a { /* inline-level*/
+            display: block;
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+
+
+-------------------------------------
+
+
+Da pra fazer também um inline-block: Ele vai continuar sendo inline mas ele vai ter algumas características de bloco.
+
+display: inline-block;
+
+

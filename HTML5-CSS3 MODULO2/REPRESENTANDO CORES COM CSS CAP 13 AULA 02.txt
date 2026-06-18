@@ -1,0 +1,36 @@
+REPRESENTAÇÕES POR NOMES--->
+Para deixar marcado com cor, tipo marca texto - style="background-color: blue OU COR QUE PREFERIR;"
+
+REPRESENTAÇÕES POR CÓDIGOS HEXADECIMAIS 
+
+style="background-color: #0000ff; color: #ffffff;"
+Quando falamos em decimal, são números que tem esses dígitos- 0 1 2 3 4 5 6 7 8 9.
+Hexadecimal - Hexadecimal- 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+---> ESTUDAR - BASES NÚMERICAS <---
+
+
+COMO FUNCIONA ESSE CÓDIGO <#0000ff; #ffffff> EM HEXADECIMAL? 
+
+Basicamente, toda cor é formada por um conjunto de combinações de vermelho, verde e azul. 
+ Você consegue ver os códigos usando o GIMP.
+
+ REPRESENTAÇÕE EM RGB ( Red, Green, Blue)
+
+style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);"
+
+
+  REPRESENTAÇÕE POR HSL  (Hue, Sturation, Luminosity)
+
+
+ style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);"
+
+
+- Forma de achar as cores de forma mais fácil>
+
+  Pôe o nome da cor, quando por o mouse em cima aparece a tela das cores, ali você consegue escolher de forma mais fácil, isso em RGB.
+ AH mas eu quero com HEXADECIMAL = Clica na barra onde diz RGB que aparece na forma que você desejar. 
+ AH MAS EU QUERO TRANSPARENCIA = Na barra entre o tom da cor e da cor, tem opção de transparência.
+
+
+

@@ -1,0 +1,45 @@
+H1 é box level, com funciona na pratica: 
+
+No Google Chrome clique com o botão direito e escolha a opção --> INSPECIONAR <-- ou pressione ---> CTRL+SHIFT+I <--- ou vai nos 3 pontinhos no canto em cima --> Mais ferramentas ---> Ferramentas do desenvolvedor.
+Fazendo isso você abre o devTools, nele você consegue ir na área dos elementos, vai nos 3 pontinhos e vai en undock.
+
+APERTANDO CNTR+ AUMENTA
+
+ O USER AGENT é o seu navegador que está exibindo o seu conteúdo, todo navegador tem uma configuração básica que geralmente é seguida por todos eles. 
+EX: H1 ele é um bloco do tipo DISPLAY:BLOCK, isso significa que é um elemento do box-level.
+
+No DevTools você consegue com o mouse ou manualmente mudar os tamanhos das caixas só para você ter uma noção se como ficaria. 
+Uma caixa inline-level é nos links
+
+
+O DevTool vai te ajudar a você entender melhor como funciona as caixas no seu site. 
+
+cód na pratica 
+
+<title>Modelo de caixas</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgray;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10-x;
+        }
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Paragrafos também são exemplos de bpx-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona</p>
+</body>

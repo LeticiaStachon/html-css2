@@ -1,0 +1,160 @@
+Arrumando a imagem pequena do Android+Boneco de banheiro: 
+
+main img.pequena {
+    max-width: 350px; -----------> Tamanho máximo de largura.
+    display: block;
+    margin: auto;
+}
+
+----------------------------------------------------------------------------------------------
+
+Configurando o paragrafo: 
+
+
+
+   Para identificar qual paragrafo <----- main  p  {
+        margin: 15px 0px; ----------------> 15px é de cima e 0px é de direita. OBS: Quando em cima e em baixo são do mesmo tamanho e de direita e de esquerda também, não é necessário por todos os lados, colocando um de cada já é o suficiente.
+
+    }
+
+---------------------------------------------------------------------------------------------------
+
+Alinhamento: 
+
+
+
+    main  p  {
+        margin: 15px 0px;
+        text-align: justify;
+    }
+
+
+-----------------------------------------------------------------------------------------------------
+
+Todo paragrafo que tiver vou por um espaço:
+
+main  p  {
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+    }
+
+-------------------------------------------------------------------------------------------------------
+
+Altura da linha: 
+
+Entre uma linha e outra não vai ter espaço nenhum.  
+
+main  p  {
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        line-height: 1em;
+        
+    }
+
+-------------------------------------------------------------------------------------------------------------- 
+
+Tamanho de fontes e espaçamento de linha.
+
+
+ main  p  {
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 1em; ----> a font. 
+        line-height: 2em;
+
+    } 
+
+-------------------------------------------------------------------------------------------------------
+
+Configurar o Main Strong: Tudo que tá em negrito ----> 
+
+   main strong {
+        color: var(--cor4);
+        font-weight: bold;
+        background-color: var(--cor1);
+        padding: 2px 6px;
+    }
+
+-----------------------------------------------------------------------------------------------------
+
+Configurar os links: 
+
+ main a {
+        text-decoration: none;
+        font-weight: bold;
+        color: var(--cor5);
+        background-color: var(--cor1);
+        padding: 2px 6px;
+        
+    }
+
+------------------------------------------------------------------------------------------------------------
+Passar o mouse em cima do link e ganhar característica:
+
+ main a:hover {
+        text-decoration: underline;
+        color: var(--cor4);
+    }
+
+
+---------------------------------------------------------------------------------------------------------------
+
+Arrumar o H2, mexeu na cor de fundo até ficar transparente: 
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

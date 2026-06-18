@@ -1,0 +1,7 @@
+Responsividade: 
+
+
+Responsividade é um conceito bem simples, que é adaptar o tamanho e o conteúdo do seu site ao tamanho de telas diferentes. 
+ E um dos recursos mais simples é a gente poder limitar tamanho mínimo e o tamanho máximo de uma interface.
+
+4 minutos e 21 segundos.

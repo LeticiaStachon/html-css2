@@ -1,0 +1,178 @@
+HARMONIA DE CORES
+
+CIRCULO CROMATICO - Ele é utilizado principalmente para conseguir harmonizar as cores. 
+
+CORES PRIMÁRIAS =
+ - Amarelo
+ - Vermelho
+ - Azul
+As cores primarias tem uma harmonia grosseira, elas não ficam tão bonitas. Mas são importantes para representarmos outras cores. 
+
+CORES SECUNDÁRIAS = 
+ - Laranja
+ - Violeta
+ - Verde
+Também são bem grosseiros de se trabalhar. 
+
+ CORES TERCIÁRIAS = 
+ - São todas as outras que são misturas das PRIMARIAS E SECUNDARIAS.
+ Sempre que você for dar um nome para uma cor terciaria você =
+ - Nome da cor primaria antes e depois o nome da cor secundaria. Toda cor terciária está entre uma cor secundária ou primária. 
+EXEMPLO - 
+
+ AMARLO - ESVERDIADO = PRIMEIRO A COR PRIMARIA E DEPOIS A COR SECUNDARIA
+ AMARELO - ALARANJADO
+ VERMELHO - ALARANJADO 
+ VERMELHO - ARROXEADO 
+ AZUL - ARROXEADO
+ AZUL - ESVERDEADO 
+
+-----> TEMPERATURA DE CORES <------
+
+Cores frias - Roxo, Violeta, Azul, Verde.
+Cores quentes - Amarelo, Laranja, Vermelho, roxo. 
+
+ OBSERVE O CIRCULO CROMATICO E DIVIDE ELE A PARTIR DESSAS CORES, ASSIM VOCÊ CONSEGUE VER EXATAMENTE AS CPRES FRIAS E QUENTES. 
+
+===================================================================================================
+
+
+Quando você for criar um site, você deve se reocupar muito com a sua palheta de cores. 
+A palheta sempre parte de uma cor principal, EX=
+
+- O site é de um restaurante.
+- No vídeo da aula anterior, ver qual a cor que mais condiz com a ideia de um site para um restaurante.
+- Mas é um restaurante chique, elegante. 
+- Elegância tem haver com dourado, com um pouquinho de preto, um marrom mais escuro. 
+- Decidiu essas cores. OK
+- O marrom, eu preciso de cores que sejam similar ao marrom, uma cor que contraste bem com o marrom, eu tenho que saber qual o tom de marrom que é melhor trabalhar quando trabalho com a cor branca. 
+
+Geralmente, uma palheta tem de 3 a 5 cores no máximo mas o recomendado são 4, desconsidere branco e preto, pois branco e preto sempre estará no seu site. 
+
+
+ -------> UMA OUTRA FORMA DE DECIDIR A PALHETA <-------
+
+ Se seu cliente tem uma logo e a marca é muito importante = 
+
+ - Verificar, qual é a cor primarias da marca desse meu cliente e utilizar a partir dessa cor. 
+
+================================================================================================
+
+PRIMEIRO LUGAR VAMOS VER AS CORES COMPLEMENTARES
+
+As cores complementares, são as cores que mais tem contrastes entre si, então se você quer saber qual a cor que tem mais contraste com o marrom por exemplo, você vai considerar o marrom e vai escolher uma cor imediatamente oposta do circulo cromático. 
+
+
+ EXEMPLOS =
+
+- Cor Violeta ---> Cor amarela
+- Cor Vermelho ---> Verde
+- Cor Azul ---> Laranja 
+
+
+
+
+
+CORE ANÁLOGAS
+
+ As cores análogas, ao contrário das complementares, são aquelas cores que não tem contrastes tão grandes entre elas mas elas são perceptíveis.
+ Por exemplo você escolhe a cor e pega as cores ao lado. 
+
+EXEMPLOS = 
+
+- Roxo <-- Violeta --> violeta de um tom x
+
+Ela não tem contrate entre elas, mas tem uma harmonia.
+
+
+CORES ANÁLOGAS E UMA COR COMPLEMENTAR 
+
+EXEMPLO = 
+
+A COR VIOLETA --> PEGA AS CORES ANÁLOGAS no caso as cores vizinhas dela E TAMBÉM PEGA UMA COMPLEMENTAR TRAÇANDO UMA LINHA RETA PRA CIMA NO CASO DO CIRCULO CROMATICO -- QUE NO CASO DA NA COR AMARALA.
+
+
+
+CORES ANÁLOGAS RELACIONADAS 
+
+Elas criam um degrade mas não criam um contraste. 
+ No caso você pega duas cores ex amarelo e a do lado, cores vizinhas, dessas duas você pula uma cor, nesse exemplo pula a cor laranja e usa a terceira cor, que seria nesse exemplo o vermelho- alaranjado. Mas pode ser para o lado do verde também, que no caso seria o lado oposto do circulo. 
+
+
+
+
+
+
+
+CORES INTERCALADAS 
+
+São parecidas com as cores anterior, mas elas tem um contraste maior entre elas. 
+ EXEMPLO = 
+ - Amarelo - pula uma e escolhe a outra, no nosso exemplo seria o laranja, pula de novo um, no caso depois do laranja pula e pega o vermelho que seria no nosso exemplo. 
+
+Essa palheta fica um pouco mais dura, o Gustavo não gosta muito de usar essa palheta mas é mais uma opção. 
+
+
+
+
+
+
+
+CORES INTERCALADA = 
+
+
+CORES TRIÁDICAS 
+Você escolhe uma cor, no nosso exemplo vai ser o amarelos e você sempre pula 3 cores, e vai pegar a outra cor, que no exemplo seria o vermelho, depois você pula mais 3 cores e pega a outra cor, que no nosso exemplo seria a cor azul. 
+
+As cores primárias e secundárias são consideradas Triádicas, elas estão simetricamente distribuídas no circulo cromático.
+
+
+
+CORES EM QUADRADO 
+São parecidas com as cores TRIÁDICAS, mas ao invés de pular 3 cores, pula 2 cores. 
+EXEMPLO = 
+
+- Amarelo, pula duas cores e vai direto para o vermelho alaranjado, pula mais duas e pega a cor violeta, pula mais duas e pega a cor azul esverdeado. 
+
+
+
+
+CORES TETRÁDICAS
+Você escolhe qualquer cor, no nosso exemplo vai ser a cor Verde, e liga com o oposto o complementar, que seria o vermelho, depois você escolhe outra cor por exemplo o laranja, e vai fazer a mesma coisa, e a complementar seria a cor azul, agora temos 4 cores na palheta, formando no circulo um retângulo.
+
+
+
+
+MONOCROMIA
+
+Ela não trabalha com várias cores, ela trabalha com 1 cor só.
+EXEMPLO = 
+
+ - Laranja, você vai modificar só a saturação (é a LUMINOSIDADE), e o brilho da cor. Alterando essas duas, utilizando a hsl você vai ter o resultado de pelo menos umas 4 cores. Fica um efeito meio degrade. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

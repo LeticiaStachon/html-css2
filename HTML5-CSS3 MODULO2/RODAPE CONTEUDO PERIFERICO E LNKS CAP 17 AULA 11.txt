@@ -1,0 +1,106 @@
+Rodapé:
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center; ---> centralizar texto
+    font-size: 0.8em; -----> tamanho font
+    padding: 5px; -----> espaço
+}
+
+-----------------------------------------------------------------------------------------------------------
+LINK:
+
+Todo link que tiver dentro do paragrafo, se representa dessa forma: 
+
+footer > p > a {
+    
+}
+
+ou
+
+footer  a {
+
+}
+
+-------------------------------------------------------------------
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+} 
+
+---------------------------------------------------------------------------------------------------------
+
+Aside: Como foi dito na aula de ciaxas semânticas, trabalhasse conteúdos periféricos, uma curiosidade.
+
+Para por cor e arredondar a coluna: 
+
+aside {
+    background-color: var(--cor1); ------> por cor
+    padding: 10px; -------> espaços
+    border-radius: 10px; -----------> bordas
+}
+   
+Para por os tópicos para dentro dessa coluna e dividir ela em duas partes: 
+
+aside > ul {
+    list-style-position: inside; --------------> por dentro da coluna
+    columns: 2; -----------------------> Dividiu em partes, pode dividir em mais parte como 3,4,5 e etc. 
+}
+
+O indicado sempre é duas colunas, pois se você for ver em telas menores acaba que ficando feio. 
+
+
+-------------------------------------------
+Vamos por um emoji como tópico, no caso um check: 
+
+00A0 ou 0020 --->  é o espaço, o NBSP é o espaço sem quebra. 
+
+
+
+ 
+aside > ul {
+    list-style-type: "\1F5F8\00A0\00A0"; ---------------> NSP espaço sem quebra, lembrando que não é compatível com todos os navegadores, o chrome é.
+    list-style-position: inside;
+    columns: 2;
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+Ajeitar o H3:
+
+aside > h3 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+---------------------------------------------------------------------------------------------------------
+
+Por emoji nos links: 
+
+a.externo::after {
+    content: "\1F517";
+} 
+
+Vai em HTML:
+
+class="externo"  antes do > do link. 
+
+ex: 
+
+
+<a href="https://www.android.com/intl/en_uk/exp/13102873/" class="externo" >
+
+
+-------------------------------------------------------------------------------------------------
+No CSS:
+
+a.externo::after {
+    content: "\00A0\1F517";
+}
+
+

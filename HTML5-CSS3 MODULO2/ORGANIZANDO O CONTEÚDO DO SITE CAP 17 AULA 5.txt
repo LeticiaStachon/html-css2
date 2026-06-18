@@ -1,0 +1,177 @@
+Para fazer a organização desse site, vamos utilizar a técnica de envelopamento de código.
+
+Seleciona o frase e envelopa, com h1, p, h2 e etc. 
+
+Por a foto: 
+
+digita img que já aparece --> <img src=" AQUI CTRL+ESPAÇO" alt=""> ---> Seleciona a imagem e fica assim <img src="imagens/dan-droids.png" alt="">
+
+A imagem em formato png transparente para não aparecer o fundo. 
+
+Exemplo do código de imagem do nosso site: 
+
+
+**<img src="imagens/dan-droids.png" alt="Primeiro mascote do Android">**
+
+
+
+OBS:  alt="Primeiro mascote do Android"> Esse seria o texto alternativo, serve para quando você tiver leitores de tela, deficientes visuais. 
+
+--
+Segundo link do site: 
+
+ **<img src="imagens/irina-blok.jpg" alt="Irina Blok, criadora do Bugdroid">**
+
+--------------------------------------------------------------------------------------------------
+
+VIDEO do Youtube: 
+
+Pesquisa no Youtube --> Vai em compartilhar --> Incorporar ----> Copia o código ---> Cola no code onde vai ficar localizado o vídeo. 
+
+------------------------------------------------------------------------------------------------
+
+Lista: 
+
+
+Isso seria uma lista, vamos envelopar com ul e cada um dos elementos vai ser li.
+
+                1.5 - Cupcake
+                1.6 - Donut
+                3.0 - Eclair
+                2.2 - Froyo
+                2.3 - Gingerbread
+                3.0 - Honeycomb
+                4.0 - Ice Cream Sandwich
+                4.1 - Jelly Bean
+                4.4 - KitKat
+                5.0 - Lolipop
+                6.0 - Marshmallow
+                7.0 - Nougat
+                8.0 - Oreo
+                9.0 - Pie
+
+
+ 
+
+
+Exemplo com ul:
+
+ <ul>
+                    1.5 - Cupcake
+                    1.6 - Donut
+                    3.0 - Eclair
+                    2.2 - Froyo
+                    2.3 - Gingerbread
+                    3.0 - Honeycomb
+                    4.0 - Ice Cream Sandwich
+                    4.1 - Jelly Bean
+                    4.4 - KitKat
+                    5.0 - Lolipop
+                    6.0 - Marshmallow
+                    7.0 - Nougat
+                    8.0 - Oreo
+                    9.0 - Pie
+                </ul>
+
+Exemplo com li:
+
+<ul>
+                    <li>1.5 - Cupcake</li>
+                    <li>1.6 - Donut</li>
+                    <li>3.0 - Eclair</li>
+                    <li>2.2 - Froyo</li>
+                    <li>2.3 - Gingerbread</li>
+                    <li>3.0 - Honeycomb</li>
+                    <li>4.0 - Ice Cream Sandwich</li>
+                    <li>4.1 - Jelly Bean</li>
+                    <li>4.4 - KitKat</li>
+                    <li>5.0 - Lolipop</li>
+                    <li>6.0 - Marshmallow</li>
+                    <li>7.0 - Nougat</li>
+                    <li>8.0 - Oreo</li>
+                    <li>9.0 - Pie</li>
+                </ul>
+
+
+
+
+----------------------------------------------------------------------------------
+
+
+
+Quando eu passar o mouse em Cupcake, eu quero saber a tradução em português:
+
+Envelopa a palavra com ABBR. 
+
+Como no exemplo abaixo:
+
+<ul>
+                    <li>1.5 - <abbr title="Bolo de Copo">Cupcake</abbr></li>
+
+                    <li>1.6 - <abbr title="Rosquinha">Donut</abbr></li>
+
+                    <li>3.0 - <abbr title="Bomba">Eclair</abbr></li>
+
+                    <li>2.2 - <abbr title="Iogurte Congelado">Froyo</abbr></li>
+
+                        <li>2.3 - <abbr title="Biscoito de Gengibre">Gingerbread</abbr></li>
+
+                    <li>3.0 - <abbr title="Favo de Mel">Honeycomb</abbr></li>
+
+                    <li>4.0 - <abbr title="Sanduíche de Sorvete">Ice Cream Sandwich</abbr></li>
+
+                    <li>4.1 - <abbr title="Jujuba">Jelly Bean</abbr></li>
+
+                    <li>4.4 - <abbr title="KitKat">KitKat</abbr></li>
+
+                    <li>5.0 - <abbr title="Pirulito">Lolipop</abbr></li>
+
+                    <li>6.0 - <abbr title="Marshmallow">Marshmallow</abbr></li>
+
+                    <li>7.0 - <abbr title="Torrone">Nougat</abbr></li>
+
+                    <li>8.0 - <abbr title="Oreo">Oreo</abbr></li>
+                    
+                    <li>9.0 - <abbr title="Torta">Pie</abbr></li>
+                </ul>
+
+
+--------------------------------------------------------------------------------
+
+
+
+Por uma palavra em destaque: 
+
+
+Nesse exemplo seria a palavra ANDROID e GOOGLE ---> Seleciona a palavra ---> Envelopa com STRONG. 
+
+<h1>História do Mascote do Android</h1>
+
+            <p>Provavelmente você sabe que o sistema operacional <strong>Android</strong>, mantido pelo <strong>Google</strong> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
+
+------------------------------------------------------------------------------
+
+Para envelopar e por um link, envelopa com a letra A e colar o link do site a href= AQUI.
+
+Exemplo abaixo do nosso site: 
+
+<a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/">Dan Morrill</a>.
+
+No texto abaixo: 
+
+<p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/">Dan Morrill</a>. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+
+
+
+
+----------------------------------------------------------------------------
+
+
+Pra não perder a navegação, abrir em outra aba usa o target="_blank como no exemplo abaixo:
+
+
+ <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank" >Dan Morrill</a>. Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+
+----------------------------------------------------------------------------
+
+

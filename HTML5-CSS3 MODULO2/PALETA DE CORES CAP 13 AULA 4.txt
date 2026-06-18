@@ -1,0 +1,35 @@
+Ferramentas
+
+color.adobe.com 
+
+Você consegue criar a paleta de cores GRATIS mas não consegue salvar por não ter uma conta na ADOBE.
+
+PARA USAR = 
+
+- Modo de cor: RGB
+- Aplicar a regra de Harmonia das cores ---> LA VOCÊ ESCOLHE 
+
+Outra opção legal, é se o cliente tem a logo e quer usar as cores da logo. 
+
+- Extrair tema
+- Pega o arquivo e arrasta pra tela e o ADOBE já da a palheta de cores. 
+- Para pegar as cores, volta para o disco de cores e lá já tá todos os códigos.
+- Se quiser montar um degrade, vai em - EXTRAIR GRADIENTE - 
+- Tem a opção de limite, exemplo quero 5 limites de cores. 
+- Se o cliente não tem logo e você precisa de exemplos de paletas de cores, vai em EXPLORAR ---> EXIBIT --> TEMAS DE CORES ---> MAIS USADOS --> E O ADOBE VAI TE DIZER QUAIS SAO AS MAIS USADAS. 
+- Tendencias para procurar expirações 
+
+Outro site = 
+
+paletton.com 
+
+- PREVIEW para achar as palhetas
+- A forma como fica é como se fosse no site
+- Vai em exemplos e ele já monta uma simulação de site já com as cores que você escolheu. 
+
+
+
+coolors 
+
+cada vez que você apeta espaço ele te sugere uma palheta nova 
+- Ponto positivo desse site é, se você gostou de uma cor, você consegue trancar essa cor e as cores mudam menos a que você trancou. No caso ele cria cores referente a que você escolheu. 

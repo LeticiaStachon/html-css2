@@ -1,0 +1,203 @@
+O site está sendo feito com Responsividade, podendo abrir razoavelmente bem em todo tipo de tela.
+ Razoavelmente bem porque alguns pontos vão ficar meio desalinhado em algumas telas, principalmente em telas menores. mas da para resolver isso quando a gente falar sobre mídia creuri.
+  Mas por enquanto na maioria das telas vai ficar adaptável.
+
+--------------------------------------------------------------------------
+Para começar vamos mexer no conteúdo principal que seria o MAIN.
+
+main {
+    min-width: 300px; ----------------> mínimo
+    max-width: 1000px; ---------------> máximo 
+    margin: auto; --------------------> Margin automática 
+    background-color: white;
+}
+
+No caso o conteúdo é o CONTEUDO.
+
+MARGIN: Para quando estiver vendo em tela cheia, ou televisão ela não crescer.
+
+
+----------------------------------------------------------------------------
+
+Agora vamos arrumar os tamanhos min e max nas imagens que estão dentro do MAIN IMG que vai ser criado: 
+
+Por 100% de largura vai fazer com que a imagem se esprema ou se adapte. 
+
+
+main img {
+    width: 100%; ------------------> Que seria essa caso.
+}
+
+ Você tem que criar imagens pequenas para aparecer em tela de celular e imagens grandes para telas maiores. 
+
+PARA ADAPTAR:
+
+Vai no HTML, no caso sai da aba CSS.
+
+Você vai envelopar a imagem dos androids dentro de um PICTURE: 
+
+ <picture>
+            <img src="imagens/dan-droids.png" alt="Primeiro mascote do Android">
+
+            </picture> 
+
+
+E vai criar um SOURCE-MEDIA:
+
+
+<picture>
+                <source media="(max-width: 800px)" srcset="imagens/dan-droids-pq.png"> ---------------> Vai trocar o min por max ----> Vai digitar exatamente como tá escrito na imagem salva que você criou e PRONTO.
+                <img src="imagens/dan-droids.png" alt="Primeiro mascote do Android">
+            </picture>
+
+
+-----------------------------------------------------------------------------------
+
+A imagem do android e o bonequinho está muito grande, o que fazer, vai fazer ele ter uma classe pequena NO HTML:
+
+<img src="imagens/bugdroid.png" class="pequena" alt="Bugdroid">
+
+
+No CSS você vai:
+
+main img.pequena {
+    width: 50%;
+}
+
+Para centralizar ela, não tem como só por uma margin, pois por padrão ela não é um bloco, então teria que dar um DISPLAY BLOCK:
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+-----------------------------------------------------------------------------------
+
+Outra coisa seria os textos muito grudados na margem, então no meu MAIN vou dar uma afastada criando um PADDING:
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px; ---------------------------> COMO NESSE EX.
+    background-color: white;
+}
+
+-----------------------------------------------------------------------------
+
+Colocar uma sombra no PADDING no MAIN vai por um box-shadow:
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418); -------------------> 0px,0px  Não ter deslocamento nem lateral e nem vertical. 10px espalhamento, e a cor da sombra black porem diminui para a transparência. 
+}
+
+
+-----------------------------------------------------------------------------------------
+Tirar o conteúdo principal colado no rodapé, dentro do MAIN vai por um margin-bottom:
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px; ----------------------------------> Para separar do rodapé.
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+Arredondar a borda: 
+
+Se for arredondar todas as laterais dentro do MAIN por um border-radius:
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-radius: 10px; ------------------------------------> como esse. 
+}
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+Arredondamento da borga só em baixo: 
+
+A configuração vai ser individual nesse caso, que só configura as extremidades opostas usando os  border-bottom-left-radius e
+    border-bottom-right-radius:
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px; -----------------------------> Bordas de baixo da esquerda 
+    border-bottom-right-radius: 10px; ----------------------------> Bordas de baixo da direita 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

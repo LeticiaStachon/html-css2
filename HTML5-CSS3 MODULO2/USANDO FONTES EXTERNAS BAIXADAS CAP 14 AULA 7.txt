@@ -1,0 +1,30 @@
+Vai em dafont.com
+
+Sempre olhar em glifos, para ver se da para usar em tudo. 
+
+Vai escolher depois de ver os glifor ---> vai baixar --> abrir paste ---> ele vem zipado então clica com o botão direito --> extrair --> ALGUNS ELE VEM EM OTF E EM TTF DE FORMATOS, tem navegador que funcionam melhor com otf assim vice versa com ttf, e da para por os dois --> CONTRL+C --> COLAR NA PASTA ONDE ESTA OS SITES DOS EXERCICIOS. 
+
+Como aparecer no site --> 
+
+@font-face {
+            font-family: 'love' ; AQUI VOCE DA O NOME
+            src: url( 'love story.ttf') format(truetype);
+            font-weight: normal;
+            font-style: normal;
+ 
+obs da para por outra url ao lado.
+
+
+
+NO MEU CASO NÃO DEU CERTO E NÃO SEI PORQUE
+
+Tipos de format()
+            - opentyoe (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advenced Typography)
+            - svg
+
+
+REFAZER AULAAAAAAAAA
+

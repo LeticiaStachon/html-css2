@@ -1,0 +1,134 @@
+ESTUDO BÁSICO DA TIPOGRÁFIA 
+
+PART2 = 
+
+Anatomia do tipo: O que é um tipo… 
+ É cada uma das letras, é como eu vou desenhar cada uma das letras. 
+A letra X é uma letra muito importante, a letra x é o ponto de partida para a construção de todas as fontes.
+ 
+PORQUE …
+
+Porque existe uma medida, uma métrica chamada altura X, que é basicamente qual é a altura do x minúsculo da sua fonte, ela vai definir qual é a altura base de todas as letras minúsculas sem seus ascendentes e descendentes. 
+
+A distancia dessas duas linhas paralelas se chama ALTURA x.
+     _______
+ex: x_______ ALTARUA - X é a altura das letras minúsculas. 
+
+A ALTURA DAS LETRAS MAIUSCULAS SE CHAMA 
+
+Altura das letras maiúsculas
+
+______________
+___ABC________
+
+A ALTURA DO VAZAMENTO, DAS BORDAS DAS LETRAS SE CHAMA 
+
+A___xxxxblt ESPACINHO DA PARTE QUE PASSA DA LINHA EX A LETRA B,L,T___Q__
+
+
+Ascendentes. 
+
+
+E TRMOS A ALTURA QUE VAZOU PARA BAIXO EX A CALDA DA LETRA g. 
+
+Se chama descendentes. 
+
+NOME DA ALTURA TOTAL: CORPO
+
+Quando vamos decidir uma fonte, temos que saber a altura do corpo dela, porque é altura do corpo que eu configuro lá na CSS.
+
+A altura do corpo é o somatório entre a altura X, a descentes, as ascendentes, e a diferençazinha da altura das maiúsculas.
+
+Isso são itens métricos. 
+
+----------------------------------------------------------------------------------------------
+
+Outro itens anatômicos 
+
+Anatômicos geométricos e anatômicos corporais:
+
+Anatômicos geométricos: É aquele pezinho da letra ou fonte. O risquinho do A se chama Serifa.
+
+QUAL SERIA A IMPORTANCIA DA SERIFA…
+
+Ela cria uma linha imaginária que o nosso cérebro percebe sem contudo olhar e falar assim, olha SERIFA.
+ Basicamente o nosso olho vai ser guiado por uma linha, como se fosse as do caderno por exemplo. 
+
+O nosso cérebro não lê as coisas LETRA POR LETRA.
+
+---- Não importa em qual ordem as letras de uma palavra estão, a única coisa importante é que a primeira e a ultima estejam no lugar certo. Isto é porque nós não lemos cada letra isolada, mas a palavra como um todo. -----
+
+
+
+A serifa vai guiar a sua leitura e vai facilitar esse trabalho no seu cérebro. 
+
+Alguns estudos indicam que algumas fontes sem a serifa ajudam a leitura em telas. 
+
+
+VOLTANDO A ANATOMIA DA LETRAS = 
+
+ANATOMICOS
+
+K
+ESSE PRIMEIRO RISCO DO K SE CHAMA HASTE.
+
+O RISCO QUE UNE AS HASTES DA LETRA A SE CHAMA DE FILETE. 
+
+Um filete une duas hastes ou uma ou mais hastes e arco.
+A letra n tem um arco por exemplo.
+
+Saltinho da letra b SE CHAMA esporão.
+
+A ponta da letra A e o fundo da letra V se chama Vértice. 
+Na letra r esse pontinha sobrando se chama Terminal.
+
+
+
+COMPONENTES CORPORAIS
+
+Letra K, esse risco da frente de cima se chama braço
+o pra baixo é perna
+tem pé também o fundo, a base que segura a fonte. 
+
+A curva do S se chama espinha
+
+A letra B dois arcos que formam a barriga. 
+Buraco dentro da letra, se chama OLHO
+A letra g tem um puxadinho em cima, se chama ORELHA.
+A parte de baixo da letra g que passa da linha do caderno, se chama CALDA
+
+
+Esses foram os componentes anatômicos de letras, fontes, de glifos. 
+
+Cada letra do alfabeto é um GLIFO.
+
+Quando eu pego todos esses glifos, o conjunto de todos os glifos em uma determinada família, a gente chama de fonte.
+Fonte também pode ser o arquivo que você baixa, para poder utilizar essa letra no seu computador. 
+
+Existem conjuntos de Glifos para diferentes famílias. 
+Isso se chama família tipográficas. 
+
+E por conta disso surgem as categorias de fontes: 
+
+Tem as letras SERIFADAS que são as com base, aquele risquinho na perna do M por exemplo. 
+Tem as SANS-SERIF que seria sem SERIFA, uma letra normal.
+ Hoje em dia a recomendação é de que você use em testos muito longos para impressão em tela, de preferencias a fontes não serifadas, e em papel serifadas. 
+ Na hora de leitura nunca use core não contrastantes, você precisa de cores complementares. BRANCO NO FINDO E PRETO NA LETRA. 
+
+FONTE MONOESPAÇADA, toda fonte monoespaçada pode ser com ou sem serifa. 
+ Como diferenciar ela das outras… As letras tem os mesmos espaços. 
+
+FONTE HANDWRITING fonte scriptada de script. Você simula a caligrafia humana. 
+
+FONTE DISPLAY, FONTES COMEMORATIVAS - é aquela fonte que não se baseia em tamanho não tem linha base, ela não se preocupa em obedecer aquelas regras anatômicas. 
+
+
+
+
+
+
+
+
+ 
+
+

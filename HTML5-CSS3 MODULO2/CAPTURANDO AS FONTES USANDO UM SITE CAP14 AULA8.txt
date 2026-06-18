@@ -1,0 +1,7 @@
+Capturando as fontes 
+
+Para conseguir pegar uma fonte de um site qualquer basta você entrar no site ----> Chrome Web Store <-----
+
+Pesquisa a extensão --> fonts ninja <---
+
+Usando a extensão --> Vai em um site, clica nela e lá ela vai te dar todas as fontes que está sendo usada no site. Copia o nome e pesquisa nos sites de fontes que o professor indicou Google fonts e o DeFonts.com 

@@ -1,0 +1,36 @@
+Alinhamentos que temos --> 
+
+A esquerda
+A direita
+Centralizada
+
+O texto normalmente tem o alinhamento nos dois lados, na esquerda e na direita que chamamos de justificado. Para fazer usar Jusify.
+
+
+<style>
+        body {
+            font: normal 16px Arial, Verdana, serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: right;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+
+
+Para dar o espaço de paragrafo no texto usar == TEXT-IDENT
+
+    p {
+            text-align: justify;
+            text-indent: 30px;
+        }
+    </style>
+

@@ -1,0 +1,55 @@
+MODELO DE CAIXAS
+
+Modelo de caixas vem do termo em inglês que é Box model.
+
+
+Se tiver alguma duvida sobre esse conceito ou quiser pesquisar outras fontes ----> htmlcss box model. 
+
+É um conjunto que vai facilitar muito para você conseguir organizar o design, as partes do seu site. 
+
+A teoria tem haver com a ideia de ter uma caixa, quando você tem um documento HTML, tudo aqui que é exibido na tela é exibido em forma de caixa. 
+ A grande maioria das caixas HTML podem estar uma caixa dentro da outra, assim facilitando muito a nossa vida. 
+
+O termo usado para uma caixa dentro da outra é ANINHAMENTO por ser em forma de ninho 
+
+EX: 
+
+<h1>Olá Mundo</h1>  
+                ___________
+A caixa seria o |OLÁ MUNDO|
+                ----------
+
+
+O H1 é um elemento de caixa, todo elemento visível na tela dentro de um site é uma caixa. 
+A caixa do H1 é o exemplo de cima |OLÁ MUNDO|
+                                  ----------
+
+Essa caixa na hora de formatar com a CSS, quando eu crio um seletor para H1 na verdade eu estou configurando a caixa que vai estar exibindo esse elemento.
+Uma caixa tem um tamanho, esse tamanho é especificado em duas medidas muito importantes e com palavras que as vezes se parecem muito, a primeira medida é:
+
+ALTURA que chamamos de HEIGHT
+LARGURA que chamamos de WIDTH
+
+A linha que circunda o meu conteúdo, é chamada de --> BORDER 
+
+Ah mas eu quero que essa borda de um espacinho ---> PADDING pode ser acolchoamento ou preenchimento 
+
+
+Além de um espaço interno eu consigo criar um espaço externo chamado --> MARGIN
+
+Criar um tracejado fora da borda, dentro do espaço do MARGIN chamado de ---> OUTLINE traduzindo, contorno ou traçado. 
+
+EXISTE DOIS TIPOR DE CAIXA: 
+
+1 Caixa Box Level ---> Sempre que uma caixa vai começar, ele quebra para a próxima linha, coloca o tamanho da tela inteira, e depois que ele termina o box ele vai para linha de baixo, ele é isolados, independente. 
+TAG mais famosa <div></div>
+Quando uso o div, quando eu quero quebrar a linha criar um box que ocupa a largura inteira, e continuar a vida. 
+2 Caixa Inline Level ---> Ele não quebra linha, não ocupa o tamanho inteiro, ele ocupa exatamente o tamanho que ele precisa e depois da continuidade ao conteúdo na mesma linha.
+TAG mais famosa <span>Olá Mundo</span>
+Quando uso o SPAN quando eu quiser um elemento e o próximo elemento esteja do lado.
+
+TAGS BOX LEVEL -----> <div>, <h1>-<h6>, <p>, <main>, <header>. <nav>, <article>, <aside>, <footer>, <form>, <video>
+TAGS INLINE LEVE ---> <span>, <a>, <code>, <small>, <strong>, <em>, <sup>-<sub>, <label>, <button>, <input>, <select>
+
+ 
+

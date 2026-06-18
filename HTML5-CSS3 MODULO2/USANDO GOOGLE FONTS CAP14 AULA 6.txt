@@ -1,0 +1,15 @@
+FONTES EXTERNAS USANDO O GOOGLE FONTES 
+
+Vai em fonts.google.com
+
+COPIA OS CODIGOS NA OPÇÃO @IMPORT
+
+Pra cada fonte que você importar, você tem que colocar o @import, lembrando que em CSS tudo que começa com @ tem que ser colocado logo em baixo do <style>, ou nas primeiras linhas de um documento de CSS separado e ela tem que estar fora de um seletor. 
+
+exemplo fora do BODY.
+
+Não exagere na quantidade de fontes no seu site, 3 ou 4 famílias de fontes já é o suficiente. 
+
+Um para grandes títulos
+Um para destaques 
+Uma fonte normal 

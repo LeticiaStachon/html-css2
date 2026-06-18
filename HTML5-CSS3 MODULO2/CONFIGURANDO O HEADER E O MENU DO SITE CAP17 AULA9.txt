@@ -1,0 +1,249 @@
+Cabeçalho, parte de cima do nosso site: 
+
+Vamos fazer o header e o menu: 
+
+
+No CSS vamos mexer no HEADER para ajustar a altura mínima da parte de cima do site:
+
+Dentro do HEADER vai por  min-height:
+
+ header {
+        background-color: var(--cor4);
+        min-height: 150px; -------------------------> ALTURA MINIMA
+    }
+
+ --------------------------------------------------------------
+
+Centralizar o texto, dentro do HEADER vai por  text-align:
+
+header {
+        background-color: var(--cor4);
+        min-height: 150px;
+        text-align: center;
+    }
+
+Se não funcionar é só por  text-align: center no h1 e no p, de todos header. 
+
+--------------------------------------------------------------------
+
+O H1 por uma margem superior para ele não ficar tão colado, dentro do HEADER > H1 vai por margin-top, se não funcionar por um padding-top no header normal, mas nesse caso foi feito no h1.  
+
+
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    margin-top: 30px;
+}
+
+ex no HEADER FOCA MAIS NESSE: 
+
+ header {
+        background-color: var(--cor4);
+        min-height: 150px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+------------------------------------------------------------------------
+
+Espaço em baixo do H1, dentro do header > h1 vai por um  margin-bottom:
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    margin-bottom: 20px;
+}
+
+
+------------------------------------------------------------------------
+
+Configurar a fonte do paragrafo dentro do header > p vai por font-family: 
+
+header > p {
+    color: white;
+    font-family: var(--fonte-padrao);
+}
+------------------------------------------------------------------------
+Para crescer um pouco a frase do paragrafo dentro do header > p vai por font-size:
+
+header > p {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em ;
+}
+
+----------------------------------------------------------------------------
+
+Aumentar o h1, dentro do header > h1 vai por um font-size: 
+
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+
+
+----------------------------------------------------------------------
+
+Ficar com o paragrafo contido, dentro do header > p vai por  max-width e  margin : 
+
+header > p {
+
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em ;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+-------------------------------------------------------------------------------------
+
+Sombra no texto: 
+
+Funciona exatamente como sombra no bloco, você vai em inspecionar e vai no h1 do header:
+
+Vai usar o davtrows, copia o código do jeito que você gostou e cola: 
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+---------------------------------------------------------------------------------------
+
+Degrade no cabeçalho:
+
+  header {
+        background-image: linear-gradient(to bottom,  #2fa866,  #063d1e); ----------------> as cores
+        min-height: 150px;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+---------------------------------------------------------------------------------------
+
+
+
+
+
+AGORA O MENU, vamos mexer no NAV: 
+
+
+
+Faz um padding: 
+
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+    
+}
+
+---------------------------------------------------------------------------------
+
+A sombra: 
+
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363); -----------------> SOMBRA
+}
+
+
+-----------------------------------------------------------------------------------
+
+Mexer nos links: 
+
+Faz um novo nav: 
+
+nav > a {
+    
+}  
+
+O A representa o link dentro do nav. 
+
+
+nav > a {
+    color: white; ----------------> cor da letra
+    padding: 10px; 
+    text-decoration: none;
+     font-weight: bold; -----------------> Negrito
+}
+
+
+----------------------------------------------------------------------------------
+
+Quando passar o mouse em cima muda de cor 
+nav > a:hover: 
+
+nav > a:hover {
+    background-color: var(--cor2);
+}
+
+----------------------------------------------------------------------------------
+
+Mudar a cor das letras também: 
+
+color: 
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+----------------------------------------------------------------------------------
+
+Um quebradinho quando passar o mouse em cima dentro do nav > a por  border-radius : 
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+---------------------------------------------------------------------------------------
+
+Quando mexer com o mouse por cima ele vai levar 1s de transição, dentro do nav > a por o  transition-duration:
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+
+----------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

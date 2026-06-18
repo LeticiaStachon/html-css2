@@ -1,0 +1,7 @@
+ACHOU UMA IMAGEM COM CORES BONITAS, VAMOS DESCOBRIR ESSAS CORES = 
+
+Vai no site ---> Tira print ou Captura de tela ---> clica com o botão direito na imagem --> abrir com --> GIMP --> Vai na ferramenta conta-gotas --> clica na cor que está na imagem e ele pega --> clica na cor do quadradinho e lá tá o código da cor, no GIMP também tem o circulo cromático de cores. 
+
+Outra opção é o Chrome Web Store = 
+
+Na barra de pesquisa --> ColorZilla

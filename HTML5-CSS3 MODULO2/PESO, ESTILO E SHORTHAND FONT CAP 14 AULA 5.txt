@@ -1,0 +1,98 @@
+Peso e estilo
+
+Peso é quando a gente faz a fonte ficar mais magrinha ou mais gordinha. FAMILIA TIPOGRAFICA.
+
+Para eu ver o peso da fonte, não se pode utilizar fontes simples pois elas só tem um peso, ou magra ou bem gordinha, ou ela é normal ou ela é em negrito. 
+
+Para fazer isso é usado uma fonte chamada WORK SANS
+
+Peso da fonte é FONT-WEIGHT 
+
+Existem alguns pesos literais da fonte
+
+
+
+weight - Peso, width - Largura, height Altura
+
+ 
+lighter mais magruinho mais leve, normal, bold bem escura negrito, bolder mais negrito ainda.
+
+ OUTRA VARIAÇÃO É A NÚMERICA
+
+Ela começa em 100 e termina em 900, sempre é bom fazer uma pesquisa para ver se tem todos esses pesos disponíveis, 
+
+
+OUTRA VARIAÇÃO QUE NÃO EXISTE EM TODAS 
+
+FONT-STYLE você vai escolher se você quer ele normal ou Italico.
+
+A fonte do H1 normalmente está em negrito, então a tua fonte também tem que ter a variação em negrito e itálico juntos.
+É por isso que o código fica tão grande pois é necessário instalar todas as variações nela. 
+
+ font-weight: para deixar em negrito ou mais leve
+  font-style: para deixar em itálico 
+
+Para deixar sublinhado 
+
+text-decoration: underline
+
+
+VOCÊ PODE FAZER ESSAS CONFIGURAÇÕES TODAS, 
+
+h1 {
+            font-family: 'Work Sans' , sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+        }
+
+As 4 declarações acima transformar em uma única declaração. 
+
+
+shorthand font é uma mãozinha kk
+
+ font-family: 'Work Sans' , sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand é uma mãozinha kk
+            - font-style -> font-weight -> font-size -> font-family
+        */
+
+FAZ ASSIM ----> 
+
+
+
+        font: italic bolder 3em 'Work Sans' , sans-serif;
+
+
+PARA SER MAIS CLARO 
+
+ no lugar de usar essas 4 linhas -->
+            font-family: 'Work Sans' , sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            eu usei só um linha 
+
+             font: italic bolder 3em 'Work Sans' , sans-serif; 
+
+
+isso se chama propriedade shorthand
+
+
+Mas tem que ser na ordem, font-style -> font-weight -> font-size -> font-family
+
+
+
+
+
+
+
+
+
+
+
+
+
+

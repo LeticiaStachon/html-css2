@@ -1,0 +1,8 @@
+Detectar fontes dentro de imagens ---> 
+ Não são 100%
+
+Site 1. whatfontis.com --> arrasta a foto para a área --> SELECEIONA A FONTE DA IMAGEM QUE VOCÊ DESEJA --> CLICA EM NEXT STEP --> CONFIGURA O CONTRSTE EM +55 E O BRILHO -33 O OBJETIVO É DEIXAR AS LETRAS BEM INDENTIFICADAS. TIRAR O FINDO SE POSSIVEL. 
+ Da para inverter as cores, deixar mais fina, redutor de ruido. Se as letras estiverem grudadas uma na outra você consegue traçar uma linha para separar elas --> Aperte em NEXT --> Vai pedir para identificar as letras da imagens, obs - se não for nada deixa em branco. Em seguida e por fim, vai aparecer as fontes pagas e as semelhantes não pagas. 
+Site 2. fontsquirrel.com ---> Mesmo processo de cima
+Site 3. myfonts.com --> Clica em EHAT THE FONT e fazer o mesmo processo.
+
